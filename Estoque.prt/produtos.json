@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "nome": "Mouse ",
+    "preco": 50,
+    "estoque": 20
+  },
+  {
+    "id": 3,
+    "nome": "Monitor Gamer",
+    "preco": 1200,
+    "estoque": 8
+  }
+]
