@@ -1,0 +1,34 @@
+body {
+    background-color: #f2f2f2;
+    color: #222;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #434A42;
+    text-align: center;
+}
+
+h2 {
+    color: #626C66;
+}
+
+img {
+    border: 3px solid rgb(0, 0, 0);
+    padding: 5px;
+}
+
+button {
+    background-color: #918B76;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+.destaque {
+    background-color: #E1CA96;
+    border: 2px solid #E1CA96;
+    padding: 10px;
+    margin: 15px 0;
+}
