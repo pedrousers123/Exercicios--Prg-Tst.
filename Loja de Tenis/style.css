@@ -2,33 +2,73 @@ body {
     background-color: #f2f2f2;
     color: #222;
     font-family: Arial, sans-serif;
-    margin: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    min-height: 320px;
+}
+
+#topo {
+    background-color: #626C66;
+    padding: 20px;
+    color: #4d5550; 
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 h1 {
     color: #434A42;
-    text-align: center;
 }
 
 h2 {
     color: #626C66;
 }
 
+.produto {
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
 img {
-    border: 3px solid rgb(0, 0, 0);
+    border: 3px solid black;
+    border-radius: 10px;
     padding: 5px;
+    margin: 8px;
 }
 
 button {
-    background-color: #918B76;
+    background-color: #626C66;
     color: white;
-    padding: 10px;
+    padding: 10px 20px;
     border: none;
+    border-radius: 8px;
+    transition: 0.4s;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #434A42;
+    cursor: pointer;
 }
 
 .destaque {
-    background-color: #E1CA96;
-    border: 2px solid #E1CA96;
+    background-color: #626C66;
+    border: 2px solid #6f7772;
+    border-radius: 8px;
     padding: 10px;
-    margin: 15px 0;
+    display: inline-block;
+    margin-top: 10px;
 }
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #434A42;
+    color: #fff;
+}
+
+
