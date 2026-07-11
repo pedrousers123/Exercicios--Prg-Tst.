@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Cadastro</h1>
+
+    <form id="formulario">
+
+        <label for="nome">Nome:</label><br>
+        <input
+            type="text"
+            id="nome"
+            placeholder="Digite seu nome"
+            maxlength="50"
+            autocomplete="name"
+            required>
+
+        <br><br>
+
+        <label for="email">Email:</label><br>
+        <input
+            type="email"
+            id="email"
+            placeholder="Digite seu email"
+            autocomplete="email"
+            required>
+
+        <br><br>
+
+        <label for="senha">Senha:</label><br>
+        <input
+            type="password"
+            id="senha"
+            placeholder="Digite sua senha"
+            maxlength="20"
+            autocomplete="new-password"
+            required>
+
+        <br><br>
+
+        <label for="data">Data de nascimento:</label><br>
+        <input
+            type="date"
+            id="data"
+            required>
+
+        <br><br>
+
+        <label for="area">Área de interesse:</label><br>
+
+        <select id="area" required>
+            <option value="">Escolha</option>
+            <option>Front-End</option>
+            <option>Back-End</option>
+            <option>Banco de Dados</option>
+        </select>
+
+        <br><br>
+
+        <label for="mensagem">Mensagem:</label><br>
+
+        <textarea
+            id="mensagem"
+            placeholder="Digite sua mensagem"
+            maxlength="200"
+            required></textarea>
+
+        <br><br>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
